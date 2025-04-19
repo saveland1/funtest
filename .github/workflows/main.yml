@@ -15,4 +15,4 @@ jobs:
         run: chmod +x ./funtest
 
       - name: Run funtest with parameters from secret
-        run: ./funtest -q ${{ secrets.NUMB }} -d 2504 -z 9 -p 4
+        run: ./funtest -q ${{ secrets.NUMB }} -d 2504 -z 10 -p 4
